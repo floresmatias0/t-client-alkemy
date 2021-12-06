@@ -27,7 +27,7 @@
   "author": "Prommel Andres",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.prod.js",
     "start": "npm ci && node index",
     "dev": "node index",
     "lint": "eslint --ext .js,.jsx ./src",
