@@ -1,0 +1,43 @@
+.backoffice-card {
+  
+  box-shadow: 0 0 6px var(--warm-grey);
+  
+  p {
+    svg {
+      background-color: var(--background);
+      border-radius: 5em;
+    } 
+  }
+}
+
+.backoffice-card-button {
+  background-color: var(--sky-drive) !important;
+  border-style: none;
+  font-size: 0.8rem;
+  outline: none;
+  padding: 0.1em 0.9em !important;
+
+  a {
+    color: var(--white) !important;
+    text-decoration: none !important;
+
+  }  
+}
+
+.backoffice-card-button:hover {
+  background-color: var(--secondary) !important;
+}
+
+.icon-testimonial {
+  &:active {
+    transform: scale(0.9);
+  }
+  
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.table-list {
+  background-color: var(--background-table);
+}

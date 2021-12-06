@@ -1,0 +1,26 @@
+.title-md {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.news-col {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.btn-news-list {
+  background-color: var(--sky-drive);
+  border: 1px solid var(--sky-drive) !important;
+  color: var(--white) !important;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.btn-news-list:hover {
+  background-color: var(--white) !important;
+  color: var(--sky-drive) !important;
+}
+
+.carousel {
+  margin-top: 0 !important;
+}

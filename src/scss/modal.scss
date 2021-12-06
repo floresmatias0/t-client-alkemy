@@ -1,0 +1,29 @@
+.container-modal {
+  color: var(--secondary);
+  font-weight: 400;
+  width: 400px;
+
+  div {
+    img {
+      border-radius: 5px;
+    } 
+  }
+}
+
+.btn-proceed {
+  background-color: var(--sky-drive) !important;
+}
+
+.btn-proceed:hover {
+  background-color: var(--secondary) !important;
+}
+
+.btn-cancel {
+  background-color: var(--red-drive);
+  box-shadow: none !important;
+}
+
+.btn-cancel,
+.btn-proceed {
+  border-style: none !important;
+}

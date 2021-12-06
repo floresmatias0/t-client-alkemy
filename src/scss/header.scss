@@ -1,0 +1,112 @@
+.btn-responsive {
+  align-items: center;
+  justify-content: end;
+  width: 25%;
+}
+
+.links-responsive {
+  width: 75%;
+}
+
+.btn-register,
+.btn-logout {
+  background-color: var(--red-drive);
+  border-style: none !important;
+  font-size: 1.5rem;
+  padding: 3% 8% !important;
+}
+
+.btn-login {
+  background-color: var(--white);
+  border: 1px solid var(--sky-drive) !important;
+  color: var(--sky-drive);
+  font-size: 1.5rem;
+  margin-right: 2rem !important;
+  padding: 2% 14% !important;
+}
+
+.btn-backoffice,
+.btn-profile {
+  background-color: var(--warm-grey) !important;
+  border-style: none !important;
+  font-size: 1.5rem;
+  padding: 3% 8% !important;
+}
+
+.btn-backoffice:hover,
+.btn-profile:hover {
+  background-color: var(--default-color) !important;
+  font-size: 1.5rem;
+}
+
+.btn-profile {
+  padding: 7% 22% !important;  
+}
+
+.btn-logout {
+  margin: 0 2rem !important;
+  padding: 3% 14% !important;
+}
+
+.btn-register:hover,
+.btn-logout:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-login:hover {
+  background-color: var(--sky-drive);
+}
+
+.links {
+  color: var(--sky-drive) !important;
+  font-size: 1.4rem;
+}
+
+.links:hover ,
+.active {
+  transform: scale(1.1) !important;
+}
+
+.active {
+  color: var(--secondary) !important;
+  font-weight: bold !important;
+}
+
+.header-nav {
+  height: 80px !important;
+  max-height: 80px !important;
+  min-height: 80px !important;
+  z-index: 2;
+}
+@media screen and (max-width: 800px) {
+  .btn-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    li {
+      button {
+        font-size: 1.2rem !important;
+        margin: 0.5em auto !important;
+      }
+    }
+  }
+  
+  .links-responsive {
+    font-size: 1rem;
+    width: 100%;
+    
+    li {
+      a {
+        font-size: 1.3rem !important;
+      }
+    }
+  }
+
+  .active {
+    color: var(--secondary) !important;
+    font-weight: 600 !important;
+  }
+
+}
